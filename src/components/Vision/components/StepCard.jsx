@@ -2,6 +2,7 @@ import { Box, Typography } from "@mui/material";
 import PropTypes from "prop-types";
 
 const StepCard = ({ number, image, imageAlt, label }) => {
+  console.log("image", image);
   return (
     <Box
       sx={{
@@ -46,7 +47,7 @@ const StepCard = ({ number, image, imageAlt, label }) => {
           }}
         >
           <img
-            src={image}
+            src={image.startsWith("/") ? image : `/${image}`}
             alt={imageAlt}
             style={{
               width: "100%",

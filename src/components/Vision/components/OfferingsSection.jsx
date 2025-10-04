@@ -80,14 +80,14 @@ const OfferingsSection = () => {
             <StepCard
               number={1}
               title="Advisor Trade"
-              image="../../public/assets/AdvisorTradeWhatsapp.png"
+              image="/assets/AdvisorTradeWhatsapp.png"
               imageAlt="Advisor added New trade"
               label="Trade Notification"
             />
             <StepCard
               number={2}
               title="Dashboard View"
-              image="../../public/assets/FoxtoxDashboard.png"
+              image="/assets/FoxtoxDashboard.png"
               imageAlt="Foxtox Dashboard"
               label="Dashboard View"
             />
@@ -113,14 +113,14 @@ const OfferingsSection = () => {
             <StepCard
               number={3}
               title="Time to Enter"
-              image="../../public/assets/TimeToEnterWhatsapp.png"
+              image="/assets/TimeToEnterWhatsapp.png"
               imageAlt="Time to Enter"
               label="Entry Notification"
             />
             <StepCard
               number={4}
               title="Place Order"
-              image="../../public/assets/PlaceOrderZerodha.png"
+              image="/assets/PlaceOrderZerodha.png"
               imageAlt="Place order screen (Zerodha app)"
               label="Broker App"
             />
@@ -145,14 +145,14 @@ const OfferingsSection = () => {
             <StepCard
               number={4}
               title="Book Profits"
-              image="../../public/assets/BookProfitsWhatsapp.png"
+              image="/assets/BookProfitsWhatsapp.png"
               imageAlt="Book Profits"
               label="Exit Notification"
             />
             <StepCard
               number={5}
               title="Positions Overview"
-              image="../../public/assets/PositionsZerodha.png"
+              image="/assets/PositionsZerodha.png"
               imageAlt="Positions Zerodha"
               label="Positions Overview"
             />

@@ -317,7 +317,7 @@ const Footer = () => {
                 }}
               >
                 <img
-                  src="../../public/assets/foxtoxlogo.png"
+                  src="/assets/foxtoxlogo.png"
                   style={{
                     height: "50px",
                     width: "auto",
