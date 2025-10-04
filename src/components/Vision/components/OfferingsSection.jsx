@@ -80,15 +80,16 @@ const OfferingsSection = () => {
             <StepCard
               number={1}
               title="Advisor Trade"
-              image="/src/assets/AdvisorTradeWhatsapp.png"
+              image="../../public/assets/AdvisorTradeWhatsapp.png"
               imageAlt="Advisor added New trade"
               label="Trade Notification"
             />
             <StepCard
               number={2}
               title="Dashboard View"
-              image="/src/assets/FoxtoxDashboard.png"
+              image="../../public/assets/FoxtoxDashboard.png"
               imageAlt="Foxtox Dashboard"
+              label="Dashboard View"
             />
           </Box>
 
@@ -112,14 +113,14 @@ const OfferingsSection = () => {
             <StepCard
               number={3}
               title="Time to Enter"
-              image="/src/assets/TimeToEnterWhatsapp.png"
+              image="../../public/assets/TimeToEnterWhatsapp.png"
               imageAlt="Time to Enter"
               label="Entry Notification"
             />
             <StepCard
               number={4}
               title="Place Order"
-              image="/src/assets/PlaceOrderZerodha.png"
+              image="../../public/assets/PlaceOrderZerodha.png"
               imageAlt="Place order screen (Zerodha app)"
               label="Broker App"
             />
@@ -144,14 +145,14 @@ const OfferingsSection = () => {
             <StepCard
               number={4}
               title="Book Profits"
-              image="/src/assets/BookProfitsWhatsapp.png"
+              image="../../public/assets/BookProfitsWhatsapp.png"
               imageAlt="Book Profits"
               label="Exit Notification"
             />
             <StepCard
               number={5}
               title="Positions Overview"
-              image="/src/assets/PositionsZerodha.png"
+              image="../../public/assets/PositionsZerodha.png"
               imageAlt="Positions Zerodha"
               label="Positions Overview"
             />

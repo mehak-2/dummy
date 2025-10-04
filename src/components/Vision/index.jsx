@@ -1,5 +1,5 @@
 import { Box } from "@mui/material";
-import EtheriumImage from "../../assets/EtheriumImage.png";
+import EtheriumImage from "../../../public/assets/EtheriumImage.png";
 import GoalSection from "./components/GoalSection";
 import OfferingsSection from "./components/OfferingsSection";
 

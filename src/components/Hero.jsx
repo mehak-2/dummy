@@ -4,8 +4,8 @@ import {
   HeroRight as HeroRightSvg,
   MobileHeroLeft,
   MobileHeroRight,
-} from "../assets/VectorImages";
-import MobileImage from "../assets/MobileImage.png";
+} from "../../public/assets/VectorImages";
+import MobileImage from "../../public/assets/MobileImage.png";
 
 const Hero = () => {
   return (

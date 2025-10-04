@@ -11,8 +11,12 @@ import {
 import { Link } from "react-router-dom";
 import { styled } from "@mui/system";
 import { Twitter, Facebook, Instagram } from "@mui/icons-material";
-import { Group, Phone, Send } from "../assets/VectorImages";
-import { Copyright } from "../assets/VectorImages";
+import {
+  Group,
+  Phone,
+  Send,
+  Copyright,
+} from "../../public/assets/VectorImages";
 
 const StyledFooter = styled(Box)({
   background: "linear-gradient(180deg, #149542 0%, #043B18 100%)",
@@ -313,7 +317,7 @@ const Footer = () => {
                 }}
               >
                 <img
-                  src="/src/assets/foxtoxlogo.png"
+                  src="../../public/assets/foxtoxlogo.png"
                   style={{
                     height: "50px",
                     width: "auto",

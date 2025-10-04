@@ -7,7 +7,7 @@ import {
   useMediaQuery,
   useTheme,
 } from "@mui/material";
-import { Rocket } from "../assets/VectorImages";
+import { Rocket } from "../../public/assets/VectorImages";
 import MenuIcon from "@mui/icons-material/Menu";
 import { useState } from "react";
 
