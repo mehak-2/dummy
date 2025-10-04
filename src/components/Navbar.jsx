@@ -66,7 +66,7 @@ const Navbar = () => {
             },
           }}
         >
-          <img src="/src/assets/foxtoxlogo.png" alt="Foxtox Logo" />
+          <img src="/assets/foxtoxlogo.png" alt="Foxtox Logo" loading="lazy" />
         </Typography>
 
         {isMobile ? (
