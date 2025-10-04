@@ -44,7 +44,7 @@ const Disclosure = () => {
           <Box sx={{ display: "flex", justifyContent: "center", mb: 6 }}>
             <LogoLink to="/">
               <img
-                src="/src/assets/foxtoxlogo.png"
+                src="/assets/foxtoxlogo.png"
                 alt="Foxtox Logo"
                 style={{ height: "60px", width: "auto" }}
               />
